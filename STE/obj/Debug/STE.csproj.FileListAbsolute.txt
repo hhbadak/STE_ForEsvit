@@ -1,0 +1,15 @@
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\bin\Debug\STE.exe.config
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\bin\Debug\STE.exe
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\bin\Debug\STE.pdb
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\bin\Debug\DataAccessLayer.dll
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\bin\Debug\DataAccessLayer.pdb
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.Login.resources
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.Properties.Resources.resources
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.csproj.GenerateResource.cache
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.csproj.CopyComplete
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.exe
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.pdb
+C:\Users\USER\Documents\GitHub\STE_ForEsvit\STE\obj\Debug\STE.Home.resources

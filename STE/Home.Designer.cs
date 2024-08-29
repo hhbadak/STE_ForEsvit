@@ -28,41 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
+            this.tb_barcode = new System.Windows.Forms.TextBox();
+            this.cb_quality = new System.Windows.Forms.ComboBox();
+            this.cb_fault = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_product = new System.Windows.Forms.DataGridView();
             this.lbl_number = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_product)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tb_barcode
             // 
-            this.textBox1.Location = new System.Drawing.Point(289, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 20);
-            this.textBox1.TabIndex = 3;
+            this.tb_barcode.Location = new System.Drawing.Point(289, 44);
+            this.tb_barcode.Name = "tb_barcode";
+            this.tb_barcode.Size = new System.Drawing.Size(166, 20);
+            this.tb_barcode.TabIndex = 3;
+            this.tb_barcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_barcode_KeyDown);
             // 
-            // comboBox1
+            // cb_quality
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(151, 44);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 2;
+            this.cb_quality.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_quality.FormattingEnabled = true;
+            this.cb_quality.Location = new System.Drawing.Point(151, 44);
+            this.cb_quality.Name = "cb_quality";
+            this.cb_quality.Size = new System.Drawing.Size(121, 21);
+            this.cb_quality.TabIndex = 2;
             // 
-            // comboBox2
+            // cb_fault
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(12, 44);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 1;
+            this.cb_fault.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_fault.FormattingEnabled = true;
+            this.cb_fault.Location = new System.Drawing.Point(12, 44);
+            this.cb_fault.Name = "cb_fault";
+            this.cb_fault.Size = new System.Drawing.Size(121, 21);
+            this.cb_fault.TabIndex = 1;
             // 
             // label1
             // 
@@ -94,13 +96,13 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Hata";
             // 
-            // dataGridView1
+            // dgv_product
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(1, 71);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(798, 378);
-            this.dataGridView1.TabIndex = 4;
+            this.dgv_product.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_product.Location = new System.Drawing.Point(1, 71);
+            this.dgv_product.Name = "dgv_product";
+            this.dgv_product.Size = new System.Drawing.Size(798, 378);
+            this.dgv_product.TabIndex = 4;
             // 
             // lbl_number
             // 
@@ -118,17 +120,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lbl_number);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_product);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cb_fault);
+            this.Controls.Add(this.cb_quality);
+            this.Controls.Add(this.tb_barcode);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
-            this.Text = "Home";
+            this.Text = "STE Giriş";
             this.Load += new System.EventHandler(this.Home_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_product)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,13 +139,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox tb_barcode;
+        private System.Windows.Forms.ComboBox cb_quality;
+        private System.Windows.Forms.ComboBox cb_fault;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_product;
         private System.Windows.Forms.Label lbl_number;
     }
 }

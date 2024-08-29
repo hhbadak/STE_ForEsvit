@@ -98,8 +98,10 @@
             // 
             this.tb_password.Location = new System.Drawing.Point(7, 149);
             this.tb_password.Name = "tb_password";
+            this.tb_password.PasswordChar = '*';
             this.tb_password.Size = new System.Drawing.Size(297, 26);
             this.tb_password.TabIndex = 2;
+            this.tb_password.Text = "12345";
             this.tb_password.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_password_KeyDown);
             // 
             // tb_username
@@ -109,6 +111,7 @@
             this.tb_username.Name = "tb_username";
             this.tb_username.Size = new System.Drawing.Size(297, 26);
             this.tb_username.TabIndex = 1;
+            this.tb_username.Text = "11";
             // 
             // Login
             // 

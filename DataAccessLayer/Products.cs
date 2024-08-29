@@ -8,7 +8,7 @@ namespace DataAccessLayer
 {
     public class Products
     {
-        public int ID { get; set; }
+        public int ProductID { get; set; }
         public string Barcode { get; set; }
         public int ProductCodeID { get; set; }
         public string ProductCode { get; set; }

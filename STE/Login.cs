@@ -50,7 +50,7 @@ namespace STE
             }
         }
         private void tb_password_KeyDown(object sender, KeyEventArgs e)
-        {
+            {
             if (e.KeyCode == Keys.Enter)
             {
                 // Enter tuşuna basıldığında btn_login'in Click olayını tetikle
